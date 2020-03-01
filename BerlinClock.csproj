@@ -50,6 +50,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BDD\BerlinClockFeatureSteps.cs" />
+    <Compile Include="Classes\BerlinClockDisplay.cs" />
+    <Compile Include="Classes\IBerlinClock.cs" />
+    <Compile Include="Classes\TimeDisplay\ILightDisplay.cs" />
+    <Compile Include="Classes\TimeDisplay\MinutesRedLight.cs" />
+    <Compile Include="Classes\TimeDisplay\MinutesYellowLight.cs" />
+    <Compile Include="Classes\TimeDisplay\OffLight.cs" />
+    <Compile Include="Classes\TimeDisplay\RedLight.cs" />
+    <Compile Include="Classes\TimeDisplay\YellowLight.cs" />
+    <Compile Include="Classes\Time\Hours.cs" />
+    <Compile Include="Classes\Time\IBerlinTime.cs" />
+    <Compile Include="Classes\Time\Minutes.cs" />
+    <Compile Include="Classes\Time\Seconds.cs" />
+    <Compile Include="Classes\Utility\TimeParser.cs" />
+    <Compile Include="Enum\HourFormatEnum.cs" />
+    <Compile Include="Enum\LightEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BDD\BerlinClockFeatureSteps.feature.cs">
       <AutoGen>True</AutoGen>
